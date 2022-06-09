@@ -1,0 +1,85 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+    padding: 0;
+}
+#title{
+    padding-left: 220px;
+}
+
+.header {
+    display: flex;
+    margin-left: 10px;
+    width: 700px;
+    height: 150px;
+}
+
+.personInfo{
+    margin-left: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+}
+
+.name{
+    font-size: 25px;
+    display: flex;
+    width: 500px;
+    height: 30px;
+    border-top: solid 1px #000;
+}
+
+.name #ko {
+    background-color: #C1FFD7;
+    width: 80px;
+    height: 30px;
+    border-right: solid 1px #000;
+}
+
+.name #koname{
+    width: 150px;
+    height: 30px;
+    border-right: solid 1px #000;
+}
+
+.name #eng{
+    background-color: #C1FFD7;
+    width: 80px;
+    height: 30px;
+    border-right: solid 1px #000;
+}
+.name #engname{
+    margin: 0 auto;
+}
+
+.homeTown{
+    display: flex;
+    width: 500px;
+    height: 30px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    font-size: 20px;
+    
+}
+
+.homeTown #address{
+    background-color: #C1FFD7;
+    width: 80px;
+    height: 30px;
+    border-right: solid 1px #000;
+    
+}
+
+.homeTown #home{
+    margin-left: 100px;
+    line-height: 1.5;
+}
+
+.email{
+    display: flex;
+    width : 500px;
+    height: 30px;
+    font-size: 20px;
+}
